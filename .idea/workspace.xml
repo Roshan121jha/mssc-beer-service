@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b0d9839-d7d5-4546-a6b0-dd48f9fcacfe" name="Default Changelist" comment="created controller for beer Service.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/msscbeerservice/domain/Beer.java" afterDir="false" />
+    <list default="true" id="1b0d9839-d7d5-4546-a6b0-dd48f9fcacfe" name="Default Changelist" comment="created entity class for beer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mssc-beer-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mssc-beer-service.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       <updated>1605238363735</updated>
       <workItem from="1605238364793" duration="28000" />
       <workItem from="1605238431844" duration="4832000" />
-      <workItem from="1605357726722" duration="3572000" />
+      <workItem from="1605357726722" duration="4381000" />
     </task>
     <task id="LOCAL-00001" summary="created dto for beer Service.">
       <created>1605248121398</created>
@@ -121,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605249203159</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created entity class for beer">
+      <created>1605445975069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605445975069</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +147,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created dto for beer Service." />
     <MESSAGE value="created controller for beer Service." />
-    <option name="LAST_COMMIT_MESSAGE" value="created controller for beer Service." />
+    <MESSAGE value="created entity class for beer" />
+    <option name="LAST_COMMIT_MESSAGE" value="created entity class for beer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1605247948788">
@@ -201,10 +207,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605249210239">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605445989241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605249210239" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605445989241" />
     <state x="65" y="25" key="new project wizard" timestamp="1605351291122">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
