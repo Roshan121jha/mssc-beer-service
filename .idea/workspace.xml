@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b0d9839-d7d5-4546-a6b0-dd48f9fcacfe" name="Default Changelist" comment="created dto for beer Service.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/msscbeerservice/web/controller/BeerController.java" afterDir="false" />
+    <list default="true" id="1b0d9839-d7d5-4546-a6b0-dd48f9fcacfe" name="Default Changelist" comment="created controller for beer Service.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/msscbeerservice/domain/Beer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mssc-beer-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mssc-beer-service.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +74,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,7 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605238363735</updated>
       <workItem from="1605238364793" duration="28000" />
-      <workItem from="1605238431844" duration="3849000" />
+      <workItem from="1605238431844" duration="4832000" />
+      <workItem from="1605357726722" duration="3572000" />
     </task>
     <task id="LOCAL-00001" summary="created dto for beer Service.">
       <created>1605248121398</created>
@@ -110,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605248121398</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created controller for beer Service.">
+      <created>1605249203159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605249203159</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,16 +141,73 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created dto for beer Service." />
-    <option name="LAST_COMMIT_MESSAGE" value="created dto for beer Service." />
+    <MESSAGE value="created controller for beer Service." />
+    <option name="LAST_COMMIT_MESSAGE" value="created controller for beer Service." />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1605247948788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1605247948788" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605248139509">
+    <state x="238" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605433372448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605248139509" />
+    <state x="238" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1605433372448" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1605433568678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1605433568678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1605433568678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1605433568678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1605433568678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1605433568678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1605433568678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1605433568678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1605433568678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
+    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1605433568678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
+    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1605433568678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
+    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1605433568678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1605433568678" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605249210239">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605249210239" />
+    <state x="65" y="25" key="new project wizard" timestamp="1605351291122">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="25" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1605351291122" />
   </component>
 </project>
